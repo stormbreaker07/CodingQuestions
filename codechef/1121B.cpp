@@ -3,7 +3,10 @@
 #include<algorithm>
 using namespace std;
 int main()
-{int n,x,t,w,sum=0;
+{
+/*changes for commit check */
+
+int n,x,t,w,sum=0;
 cin>>x;
 int arr[x];
 for(int i=0;i<x;i++)
