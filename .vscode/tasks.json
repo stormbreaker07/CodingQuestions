@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "debug",
+            "type": "shell",
+            "command": "",
+            "args": [
+                "g++",
+                "-g",
+                "${relativeFile}",
+                "-o",
+                "a.exe"
+            ]
+        }]
+}
