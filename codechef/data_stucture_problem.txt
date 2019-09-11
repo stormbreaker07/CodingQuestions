@@ -1,0 +1,13 @@
+write c program on the following 
+
+1-linear search
+2-binary search
+3-bubble sort
+4-selection sort 
+5-insertion sort
+6-merge sort
+7-quick sort
+
+/*another problem*/
+
+write a c program to implementation stack when you push 5 elements 3,5,10,15,20,and pop 2 elemnets.
