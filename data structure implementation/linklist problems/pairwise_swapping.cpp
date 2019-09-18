@@ -48,7 +48,8 @@ else
 }
 
 int main()
-{head=NULL;	
+{head=NULL;
+	
 	int num;
 	cin>>n;
 	for(int i=0;i<n;i++)
