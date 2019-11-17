@@ -35,12 +35,13 @@ nodeptr insert(nodeptr root,char data)
 } 	
 
 
+
 void BFS(nodeptr root)
 {
 	if(root == NULL) return;
 	queue<nodeptr> q;
 	q.push(root);
-	while(!q.empty())
+	while(!q.empty(n))
 	{nodeptr curr = q.front();
 		cout<<curr->data<<" ";
 	if(curr->left!=NULL)

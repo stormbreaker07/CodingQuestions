@@ -17,7 +17,8 @@ else
 
 void pop()
 {if(top==-1)
-	{cout<<"underflow"<<" ";}
+	{cout<<"underflow"<<" ";
+	}
 else
     {top=top-1;}
 }
@@ -48,6 +49,6 @@ push(8);
 print();
 cout<<endl;
 push(12);
-print();-
+print();
 return 0;
 }
