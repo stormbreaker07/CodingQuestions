@@ -31,7 +31,7 @@ return st[si];
 
 int *construct(int a[],int n)
 {
-	int x = int(ceil(log2(n)));
+	int x = int(ceil(log2(n)));				
 	x = 2*(int)pow(2,x)-1;
 	num = x;
 	int *st = new int[x];

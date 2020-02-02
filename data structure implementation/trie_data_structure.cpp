@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+long int ans =0;
 const int alpa = 26; 
 /*create structure */
 typedef struct Trie 
@@ -15,6 +17,7 @@ typedef struct Trie
 /*for new node*/
 nodeptr getnode()
 {
+ans++;	
 nodeptr n = new Trie;
 
 n->isEnd = false;	
@@ -47,7 +50,7 @@ for(unsigned int i=0;i<s.length();i++)
 if(!temp->children[index])
 {return false;}
 temp = temp->children[index];
-}
+} 
 return(temp!=NULL && temp->isEnd);
 }
 
@@ -89,6 +92,7 @@ for(int i=0;i<n;i++)
 cin>>a[i];	
 insert(root,a[i]);
 }
+cout<<ans;
 
 
 
