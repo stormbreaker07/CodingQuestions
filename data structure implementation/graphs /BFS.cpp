@@ -16,7 +16,7 @@ while(!q.empty())
   q.pop();
  for(int i=0;i<ad[w].size();i++) 		
 	{if(a[ad[w][i]]!=1)
-		{q.push(ad[w][i]);}		
+		{q.push(ad[w][i]);}			
 	}
 }	
 }

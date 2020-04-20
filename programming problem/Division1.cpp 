@@ -1,0 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define md 1000000007
+
+
+int main()
+{
