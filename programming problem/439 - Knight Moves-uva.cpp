@@ -29,7 +29,7 @@ void fun(int x,int y,int num)
 int main()
 {char c,c2;
  int x1,y1;
- cin>>c>>y;
+ cin>>c>>y1;
  cin>>c2>>t;
  x=int(c)-96;
  r=int(c2)-96;

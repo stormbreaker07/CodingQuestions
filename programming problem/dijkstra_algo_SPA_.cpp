@@ -15,7 +15,7 @@ void dijkstra(vector<pair<int, int> > v[], int str)
     s.insert(make_pair(0, str));
 
     while (!s.empty())
-    {cout<<"asas";
+    {
         pair<int, int> p = *s.begin();
         s.erase(s.begin());
         int x = p.second;

@@ -29,8 +29,6 @@ int main()
 
     l i = 1,j=k;
     l mx = temp_sum;
-
-    cout<<mx<<endl;
     for(l i=1,j=k;i<n,j<n;i++,j++)
     {
         if(a[i-1]==0)
