@@ -4,45 +4,53 @@ using namespace std;
 
 int main()
 {
-int n,m;
+int n,m,c=0;
 cin>>n>>m;
-queue<long int> q;
+deque<long int> q;
+set<int> st;
 long int w;
-long int max_size = (int)(pow(10,9));
-int *k = new int[max_size];
+int pre,pst;
 int count=0;
 for(int i=0;i<n;i++)
 {cin>>w;
-	
-	if(count == m && k[w]!=23)
-	{	k[q.back()]=0;
-	q.pop();
-	count--;
-	}
-		
-	if(count<m && k[w]!=23)
-	{cout<<w<<endl;
-		q.push(w);
-	k[w] = 23;
-	count++;
-	}
+pre = st.size();
+st.insert(w);
+pst = st.size();
+if(i!=0)
+{if(pre<pst)
+{c=1;}
+else
+{c=0;}
 }
-cout<<count<<endl;
-string s;
-for(unsigned int i=0;i<q.size();i++)
-{ ostringstream str1; 
-  
-    str1 << q.back(); 
-  
-    string s2 = str1.str(); 
-  cout<<"s2";
-	
-	s=s+s2;
-q.pop();
-}
-
+else
+{c=1;}
 
 	
+if(count<m)
+{
+if(c==1)	
+{q.push_back(w);
+count++;	
+}
+}		
+else if((count == m) && (c==1))
+{
+st.erase(q.front());	
+q.pop_front();
+count--;
+
+if(c==1)
+{q.push_back(w);
+
+count++;
+}
+}
+}
+cout<<q.size()<<endl;
+while(!q.empty())
+{cout<<q.back()<<" ";
+	q.pop_back();
+}
 	return 0;
 }
 
