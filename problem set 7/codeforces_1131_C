@@ -1,0 +1,45 @@
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=problem set
+base_path=/home/stormbreaker/Documents/CodingQuestions/problem set 7
+description=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=11
+FILE_NAME_0=237;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fmerge_sort.cpp;0;4
+FILE_NAME_1=23;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fmockvita%2Fcodevita_practise_prime_fibonacci.cpp;0;4
+FILE_NAME_2=446;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Facfklmzxv.cpp;0;4
+FILE_NAME_3=548;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fonly_test_purpose.cpp;0;4
+FILE_NAME_4=1260;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fmin_range_segment_tree.cpp;0;4
+FILE_NAME_5=382;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Flazy_propogation.cpp;0;4
+FILE_NAME_6=398;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fsegmenttree_for_sum.cpp;0;4
+FILE_NAME_7=3;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fcounting_query_on_segment_tree.cpp;0;4
+FILE_NAME_8=0;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fcodevita%20season%209%20round%201%2Felection.cpp;0;4
+FILE_NAME_9=0;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fhackerearth%20segment%20tree%2FBlocks.cpp;0;4
+FILE_NAME_10=1;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fcoding_blocks_seqment_tree.cpp;0;4
+FILE_NAME_11=484;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstormbreaker%2FDocuments%2FCodingQuestions%2Fproblem%20set%207%2Fcodeforces_children.cpp;0;4
+
+[VTE]
+last_dir=/home/stormbreaker/Documents/CodingQuestions/problem set 7

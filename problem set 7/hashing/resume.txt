@@ -1,0 +1,176 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv} % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking} % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault} % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{} % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc} % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8} % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm} % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Tanuj}{Yadav}
+%\title{Curriculum Vitae} % optional, remove / comment the line if not wanted
+\address{Moradabad, Uttar Pradesh, India-203101}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+91 8009989445}                   % optional, remove / comment the line if not wanted\begin{document}.
+\phone[mobile]{+91 8126533499} % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012} % optional, remove / comment the line if not wanted
+\email{tanuj07yadav07@gmail.com} % optional, remove / comment the line if not wanted
+%\homepage{www.myname.webs.com} % optional, remove / comment the line if not wanted
+%\extrainfo{additional information} % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture} % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote} % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+% content
+%----------------------------------------------------------------------------------
+
+\begin{document}
+
+%\begin{CJK*}{UTF8}{gbsn} % to typeset your resume in Chinese using CJK
+%----- resume ---------------------------------------------------------
+\makecvtitle
+\small{A software engineer student with hands-on experience in Problem solving , Javascript  , Css , Smart contract , including python and have a keen interest in decentralized applications and Iot . Highly optimistic and always ready to learn new technology.}
+
+\section{Academic Qualifications}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{2018 - 2022}{B.E., Computer Science \& Engg}{ABES Engineering College}{ghaziabad, India}{\textit{\textbf{} \textbf{currently pursuing}}}{}}
+
+\item{\cventry{2016 - 2017}{Higher Secondary (12th Grade) (CBSE)}{R.R.K Public School}{Uttar Pradesh, Moradabad, India}{\textit{Aggregate: 83\%}}{}} % arguments 3 to 6 can be left empty
+
+\item{\cventry{2014 - 2015}{Secondary (10th Grade)(CBSE)}{R.R.K Public School}{Uttar Pradesh, Moradabad, India}{\textit{CGPA: 9.4}}{}}
+
+\end{itemize}
+
+\section{Projects}
+
+\vspace{5pt}
+
+          \item{\textbf{Affidavit Management (https://registrars.legal) in Mindfire }}
+          \begin{itemize}
+          \item Understand Clients requirement and created Mocks for design and decided tech stack.
+          \item This Project involved use of new kind of opensource library called Grapesjs so I have learned it .
+          \item Worked as a Full stack Developer on Spring Boot and Angular 8 , Psql and AWS.
+          \item Implemented Security for application laid down architecture for Api's.
+          \item Optimized Apis responses with caching them on Ui and used zip compression for responses , also learned how to use S3 to store/retrieve files and how to deploy application on AWS and debug it , also learnt about flutter payment gateway .
+          \item Presented regular updates and demos to client So he must be on the same page with us regarding functionality wise and design wise .
+          \end{itemize}
+          \vspace{3pt}
+
+         
+        
+\vspace{3pt}
+
+\section{Technical Skills}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{Programming Language & Web Technologies : }  c/c++ , Python , Javascript  , Solidity
+
+\vspace{6pt}
+
+\item \textbf{Library:} folium(python) , pandas(basic).
+\vspace{6pt}
+
+\item \textbf{problem solving} 
+
+\vspace{6pt}
+
+\item \textbf{Technologies:} Ethereum (basis) , Block Chain , Smart contract 
+
+\vspace{6pt}
+\item \textbf{Others:} Git(basic)  .
+
+\end{itemize}
+
+\section{Awards \& Achievement}
+
+\vspace{6pt}
+
+\begin{itemize}
+\item{Coursera certification on \textbf{Blockchain Basics}.}
+\vspace{6pt}
+\item{Coursera certification on {\textbf{Smart Contracts}}.}
+\vspace{6pt}
+\item{Score under 500 state level rank in \textbf{NSTSE round 1}.}
+\vspace{6pt}
+\item{Coursera certification on {\textbf{Introduction to Project Management}}.}
+\vspace{6pt}
+\item{Top performer of the winning team in the intra-college \textbf{FootBall}.}
+\vspace{6pt}
+\item{Bronze medal winner {\textbf{Dainik Jagran Sanskarshala}}.}
+\vspace{6pt}
+\end{itemize}
+\section{Various Links}
+
+\vspace{6pt}
+\begin{itemize}
+
+\item \textbf{Github Link: } {https://github.com/stormbreaker07}
+\vspace{6pt}
+\item \textbf{Linkedin Profile: } {https://www.linkedin.com/in/tanuj-yadav-a72a60187/}
+\vspace{6pt}
+\item \textbf{CodeChef Link: } { https://www.codechef.com/users/tanujyadav007}
+\vspace{6pt}
+\item {\textbf{CodeChef Discuss Link:} } {https://discuss.codechef.com/u/tanujyadav007/activity}
+					\vspace{6pt}
+\item \textbf{Hacker Earth Link: } {https://www.hackerearth.com/@tanuj68}
+\vspace{6pt}
+\item \textbf{Geeksforgeeks Article  Link: } {https://www.geeksforgeeks.org/count-of-strings-possible-by-replacing-two-consecutive-same-character-with-new-character/}
+\vspace{6pt}
+
+\end{itemize}
+% Publications from a BibTeX file without multibib
+% for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+% to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}
+% 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications} % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications} % 'publications' is the name of a BibTeX file
+
+%----- letter ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
